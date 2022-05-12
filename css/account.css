@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+.header{
+/*    background-image: url(../images/sustbackground.jpg);*/
+    background-color:cadetblue;
+    height: 500px;
+    background-repeat:round;
+    background-image: url(../images/banner-bg.webp);
+    
+/*    margin: 45%;*/
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.navbar{
+    margin-top: 70px;
+    margin-left: 350px;
+    font-size: 20px;
+    overflow: hidden;
+    
+}
+.navbar li a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+/*    border-radius: 30%;*/
+    
+}
+.navbar li a:hover{
+    color:black;
+    
+}
+.navbar li:hover{
+    transform: scale(1.2);
+	transition: transform 300ms ease-in;
+    color:coral;
+}
+.second_row{
+    margin-top: 20px;
+/*    margin-left: 80px;*/
+}
+
+.third_row{
+    margin-top: 100px;
+    font-size: 40px;
+    color:darkcyan;
+    font-family:fantasy;
+
+}
+.navbar2{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+    overflow: hidden;
+}
+.navbar2 li{
+    border: 
+    
+}
+
+.navbar2 li a{
+    color:blueviolet;
+    text-decoration: none;
+    font-family: cursive;
+/*    display: inline-block;*/
+/*    background-color:beige;*/
+    padding: 20px;
+    border-radius: 300px;
+    
+}
+.navbar2 li a:hover{
+    color:coral;
+    font-weight: bold;
+
+}
+.navbar2 li:hover{
+        transform: scale(1.1);
+	transition: transform 300ms ease-in;
+}
+
+
+.navbar2 li .clr{
+    color: coral;
+}
+
+
+.row1{
+    margin-left: 20px;
+    margin-top: 25px;
+    background: #fff;
+}
+.heading{
+    text-align: center;
+    padding:0.5rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color:black;
+    margin-right: 150px;
+    
+}
+
+.heading span{
+    background: orange;
+    color:#fff;
+    display: inline-block;
+    padding:.5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+.heading:hover {
+    cursor:grab;
+    transform: scale(1.1);
+	transition: transform 300ms ease-in;
+    color:black;
+    font-weight: bold;
+}
+
+
+
+
+.description1{
+    padding-top: 70px;
+    padding-left: 80px;
+    height: 695px;
+    background-color: #fff;
+    background-repeat: round;
+    background-image: url(../images/banks.jpg);
+    margin-top: 30px;
+/*    position: relative;*/
+/*    display: flex;*/
+    
+    
+}
+
+
+
+
+
+/*
+.description1{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #34495e;
+}
+*/
+.box{
+  width: 400px;
+  padding: 40px;
+/*  position: absolute;*/
+/*  top: 50%;*/
+/*
+  left: 50%;
+  transform: translate(-50%,-50%);
+*/
+  background: #191919;
+  text-align: center;
+    margin-left: 35%;
+    margin-top: 1%;
+    box-shadow: -3px 10px 55px -4px #000;
+/*    position: relative;*/
+/*    opacity: 0.3;*/
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+   
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    
+  width: 280px;
+  border-color: #2ecc71;
+}
+.box input[type = "button"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "button"]:hover{
+  background: #2ecc71;
+}
+
+
+
+
+.footer{
+    font-size: 20px;
+    padding: 50px;
+/*    text-align: center;*/
+/*    cursor: pointer;*/
+    background-color:black;
+    color: aliceblue;
+    height: 150px;
+}
+.copy{
+    text-align: center;
+}
+.fb{
+    height: 30px;
+/*    margin-left: 300px;*/
+    float: right;
+    border-radius: 50%;
+}
+
+.fb:hover{
+        transform: scale(1.6);
+	transition: transform 300ms ease-in;
+}
+.follow{
+    text-align:right;
+}
+
+
+
+
+@media screen and (max-width:800px){
+    .header{
+        height: 700px;
+    }
+    .logo2{
+        float: left;
+    }
+    .header ul li{
+        float: left;
+        width: 100%;
+        overflow:hidden; 
+    }
+}
+
+
+

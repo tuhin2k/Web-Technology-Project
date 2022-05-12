@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+.header{
+/*    background-image: url(../images/sustbackground.jpg);*/
+    background-color:cadetblue;
+    height: 500px;
+    background-repeat:round;
+    background-image: url(../images/banner-bg.webp);
+    
+/*    margin: 45%;*/
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.navbar{
+    margin-top: 70px;
+    margin-left: 350px;
+    font-size: 20px;
+    overflow: hidden;
+    
+}
+.navbar li a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+/*    border-radius: 30%;*/
+    
+}
+.navbar li a:hover{
+    color:black;
+    
+}
+.navbar li:hover{
+    transform: scale(1.2);
+	transition: transform 300ms ease-in;
+    color:coral;
+}
+.second_row{
+    margin-top: 20px;
+/*    margin-left: 80px;*/
+}
+
+.third_row{
+
+    margin-top: 100px;
+    font-size: 40px;
+    color:darkcyan;
+    font-family:fantasy;
+}
+.navbar2{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+    overflow: hidden;
+}
+.navbar2 li{
+    border: 
+    
+}
+
+.navbar2 li a{
+    color:blueviolet;
+    text-decoration: none;
+    font-family: cursive;
+/*    display: inline-block;*/
+/*    background-color:beige;*/
+    padding: 20px;
+    border-radius: 300px;
+    
+}
+.navbar2 li a:hover{
+    color:coral;
+    font-weight: bold;
+
+}
+.navbar2 li:hover{
+        transform: scale(1.1);
+	transition: transform 300ms ease-in;
+}
+
+
+.navbar2 li .clr{
+    color: coral;
+}
+.row1{
+    margin-left: 20px;
+    margin-top: 25px;
+    background: #fff;
+}
+.heading{
+    text-align: center;
+    padding:0.5rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color:black;
+    margin-right: 150px;
+    
+}
+
+.heading span{
+    background: orange;
+    color:#fff;
+    display: inline-block;
+    padding:.5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+.heading:hover {
+    cursor:grab;
+    transform: scale(1.1);
+	transition: transform 300ms ease-in;
+    color:black;
+    font-weight: bold;
+}
+
+
+
+.description1{
+    height: 1000px;
+        background: url(../images/iStock-984796804.webp);
+    background-size: 100% 100%;
+    background-position: 580px 10px ;
+    background-repeat:round;
+    margin-top: 30px;
+/*    background-color: rgb(121,202,205);*/
+/*    background-color: alicebluew;*/
+/*    background-color: rgb(0,6,18);*/
+
+    
+/*    place-items:center;*/
+/*    align-items: center;*/
+}
+
+.description1 h1{
+    text-align: center;
+    color:deeppink;
+    font-size: 30px;
+/*    background: url(../images/Blood-Donation-1.jpg);*/
+    background-size: 100% 100%;
+}
+
+.second1_row{
+/*    margin: 0;*/
+/*    margin-top: 100px;*/
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+    height: 100vh;
+    display: grid;
+/*    align-items: center;*/
+/*    place-items:center;*/
+}
+.table1{
+
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+    margin-left: 200px;
+
+    
+}
+
+table{
+    margin-top: 100px;
+    width: 800px;
+    box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5);
+    opacity: 0.8;
+    font-weight: bold;
+    font-family: cursive;
+/*    z-index: 1;*/
+    
+}
+table,td,th{
+    padding: 20px;
+    border: 1px solid lightgray;
+/*    border-collapse: collapse;*/
+    text-align: center;
+    cursor: grab;
+}
+
+td{
+    font-size: 18px;
+}
+
+th{
+    background-color: blue;
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+tr:nth-child(odd):hover{
+    background-color:deeppink;
+    color: white;
+    transform: scale(1.2);
+    transition: transform 300ms ease-in;
+}
+
+tr:nth-child(even){
+
+	background-color: #ededed;
+
+}
+
+tr:nth-child(even):hover{
+
+	background-color: deeppink;
+    color: white;
+
+	transform: scale(1.2);
+
+	transition: transform 300ms ease-in;
+
+
+}
+
+
+.third1_row{
+/*    margin-top: 180px;*/
+    margin-left: 50px;
+}
+
+
+.lbl{
+    color: black;
+    margin-left: 80px;
+}
+.txtarea{
+    background-color: antiquewhite;
+    text-align: center;
+    font-weight: bold;
+    cursor:default;
+/*    margin-left: 80px;*/
+/*    float: left;*/
+/*    font-size: 10px;*/
+}
+.nextpage,.previouspage,.firstpage,.lastpage{
+    background-color:aquamarine;
+    color: black;
+    border-radius: 45%;
+    font-weight: bold;
+    font-family: monospace;
+}
+.previouspage{
+/*    margin-left: 300px;*/
+}
+.nextpage{
+    margin-left: 80px;
+/*    margin-right: 100px;*/
+/*    border: 10px solid gray;*/
+}
+
+.firstpage{
+/*    padding-left: 250px;*/
+    margin-left: 220px;
+    
+}
+.lastpage{
+    
+}
+
+.nextpage:hover , .previouspage:hover, .firstpage:hover , .lastpage:hover{
+    background-color:aqua;
+    color: black;
+    
+    transform: scale(1.2);
+	transition: transform 300ms ease-in;
+}
+
+
+
+
+
+
+.footer{
+    font-size: 20px;
+    padding: 50px;
+/*    text-align: center;*/
+/*    cursor: pointer;*/
+    background-color:black;
+    color: aliceblue;
+    height: 150px;
+}
+.copy{
+    text-align: center;
+}
+.fb{
+    height: 30px;
+/*    margin-left: 300px;*/
+    float: right;
+    border-radius: 50%;
+}
+
+.fb:hover{
+        transform: scale(1.6);
+	transition: transform 300ms ease-in;
+}
+.follow{
+    text-align:right;
+}
+
+
+
+
+@media screen and (max-width:800px){
+    .header{
+        height: 700px;
+    }
+    .logo2{
+        float: left;
+    }
+    .header ul li{
+        float: left;
+        width: 100%;
+        overflow:hidden; 
+    }
+}
+
+
+
